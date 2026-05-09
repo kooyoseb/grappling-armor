@@ -32,6 +32,8 @@ build-release.bat
 
 The distributable jar is copied to `dist/grappling-armor-<version>.jar`.
 
+The release script also regenerates the mod icon at `src/main/resources/assets/grappling-armor/icon.png`.
+
 ## Distribution
 
 Upload this file for normal players:

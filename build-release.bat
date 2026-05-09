@@ -14,6 +14,14 @@ if exist "C:\Program Files\Java\jdk-26.0.1\bin\java.exe" (
 )
 
 echo Building Grappling Armor %MOD_VERSION%...
+if exist "tools\generate-icon.ps1" (
+  powershell -NoProfile -ExecutionPolicy Bypass -File "tools\generate-icon.ps1"
+  if errorlevel 1 (
+    echo Icon generation failed.
+    exit /b 1
+  )
+)
+
 call gradlew.bat clean build
 if errorlevel 1 (
   echo Build failed.
