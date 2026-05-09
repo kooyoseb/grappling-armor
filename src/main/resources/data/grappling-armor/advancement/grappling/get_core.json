@@ -1,0 +1,31 @@
+{
+  "parent": "grappling-armor:grappling/get_control_device",
+  "criteria": {
+    "has_item": {
+      "conditions": {
+        "items": [
+          {
+            "items": "grappling-armor:grappling_control_core"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancement.grappling-armor.get_core.description"
+    },
+    "icon": {
+      "id": "grappling-armor:grappling_control_core"
+    },
+    "title": {
+      "translate": "advancement.grappling-armor.get_core.title"
+    }
+  },
+  "requirements": [
+    [
+      "has_item"
+    ]
+  ]
+}

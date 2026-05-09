@@ -1,0 +1,31 @@
+{
+  "criteria": {
+    "has_hook": {
+      "conditions": {
+        "items": [
+          {
+            "items": "grappling-armor:grappling_hook"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "background": "minecraft:textures/block/polished_blackstone.png",
+    "description": {
+      "translate": "advancement.grappling-armor.root.description"
+    },
+    "icon": {
+      "id": "grappling-armor:grappling_hook"
+    },
+    "title": {
+      "translate": "advancement.grappling-armor.root.title"
+    }
+  },
+  "requirements": [
+    [
+      "has_hook"
+    ]
+  ]
+}

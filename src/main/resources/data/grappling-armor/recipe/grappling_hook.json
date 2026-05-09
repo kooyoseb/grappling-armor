@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "C": "minecraft:iron_chain",
+    "I": "minecraft:iron_ingot",
+    "S": "minecraft:stick"
+  },
+  "pattern": [
+    "  S",
+    " I ",
+    "C  "
+  ],
+  "result": {
+    "id": "grappling-armor:grappling_hook"
+  }
+}

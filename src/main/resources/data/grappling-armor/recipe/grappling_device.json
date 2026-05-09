@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "C": "grappling-armor:grappling_control_device",
+    "H": "grappling-armor:grappling_handle",
+    "N": "minecraft:polished_blackstone"
+  },
+  "pattern": [
+    " NC",
+    "H N",
+    " N "
+  ],
+  "result": {
+    "id": "grappling-armor:grappling_device"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "grappling-armor:item/grappling_twin_blade"
+  }
+}

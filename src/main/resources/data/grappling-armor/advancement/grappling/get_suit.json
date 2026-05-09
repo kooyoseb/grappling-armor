@@ -1,0 +1,32 @@
+{
+  "parent": "grappling-armor:grappling/get_control_armor",
+  "criteria": {
+    "has_item": {
+      "conditions": {
+        "items": [
+          {
+            "items": "grappling-armor:grappling_suit"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancement.grappling-armor.get_suit.description"
+    },
+    "frame": "challenge",
+    "icon": {
+      "id": "grappling-armor:grappling_suit"
+    },
+    "title": {
+      "translate": "advancement.grappling-armor.get_suit.title"
+    }
+  },
+  "requirements": [
+    [
+      "has_item"
+    ]
+  ]
+}

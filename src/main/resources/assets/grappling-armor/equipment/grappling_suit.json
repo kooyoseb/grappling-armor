@@ -1,0 +1,19 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "grappling-armor:grappling_suit"
+      }
+    ],
+    "humanoid_baby": [
+      {
+        "texture": "grappling-armor:grappling_suit"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "grappling-armor:grappling_suit"
+      }
+    ]
+  }
+}

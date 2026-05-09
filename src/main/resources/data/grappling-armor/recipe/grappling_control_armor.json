@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "A": "minecraft:netherite_chestplate",
+    "G": "minecraft:gold_ingot",
+    "I": "minecraft:iron_ingot",
+    "N": "minecraft:polished_blackstone"
+  },
+  "pattern": [
+    "I I",
+    "NAN",
+    "GIG"
+  ],
+  "result": {
+    "id": "grappling-armor:grappling_control_armor"
+  }
+}

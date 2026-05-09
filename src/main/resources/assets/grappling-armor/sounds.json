@@ -1,0 +1,37 @@
+{
+  "hook_shoot": {
+    "subtitle": "subtitles.grappling-armor.hook_shoot",
+    "sounds": [
+      {
+        "name": "minecraft:item/crossbow/shoot1",
+        "pitch": 1.35
+      },
+      {
+        "name": "minecraft:item/trident/throw",
+        "pitch": 1.55
+      }
+    ]
+  },
+  "hook_hit": {
+    "subtitle": "subtitles.grappling-armor.hook_hit",
+    "sounds": [
+      {
+        "name": "minecraft:block/chain/hit1",
+        "pitch": 1.15
+      },
+      {
+        "name": "minecraft:item/crossbow/hit1",
+        "pitch": 1.25
+      }
+    ]
+  },
+  "suit_boost": {
+    "subtitle": "subtitles.grappling-armor.suit_boost",
+    "sounds": [
+      {
+        "name": "minecraft:item/trident/riptide1",
+        "pitch": 1.45
+      }
+    ]
+  }
+}

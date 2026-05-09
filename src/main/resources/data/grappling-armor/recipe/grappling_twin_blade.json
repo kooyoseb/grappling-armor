@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "H": "grappling-armor:grappling_handle",
+    "R": "minecraft:redstone",
+    "S": "minecraft:netherite_sword"
+  },
+  "pattern": [
+    "S S",
+    "H H",
+    " R "
+  ],
+  "result": {
+    "id": "grappling-armor:grappling_twin_blade"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "parent": "grappling-armor:grappling/get_suit",
+  "criteria": {
+    "has_item": {
+      "conditions": {
+        "items": [
+          {
+            "items": "grappling-armor:grappling_twin_blade"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancement.grappling-armor.get_twin_blade.description"
+    },
+    "icon": {
+      "id": "grappling-armor:grappling_twin_blade"
+    },
+    "title": {
+      "translate": "advancement.grappling-armor.get_twin_blade.title"
+    }
+  },
+  "requirements": [
+    [
+      "has_item"
+    ]
+  ]
+}

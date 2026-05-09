@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:book",
+    "grappling-armor:grappling_hook"
+  ],
+  "result": {
+    "id": "grappling-armor:grappling_guidebook"
+  }
+}

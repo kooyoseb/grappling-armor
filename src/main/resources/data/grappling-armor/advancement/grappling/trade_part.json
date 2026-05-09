@@ -1,0 +1,31 @@
+{
+  "parent": "grappling-armor:grappling/root",
+  "criteria": {
+    "has_item": {
+      "conditions": {
+        "items": [
+          {
+            "items": "grappling-armor:grappling_part"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancement.grappling-armor.trade_part.description"
+    },
+    "icon": {
+      "id": "grappling-armor:grappling_part"
+    },
+    "title": {
+      "translate": "advancement.grappling-armor.trade_part.title"
+    }
+  },
+  "requirements": [
+    [
+      "has_item"
+    ]
+  ]
+}
